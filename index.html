@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QR_Code_Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="home.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="qr-card">
+            <h1>QR Code Generator</h1>
+            <p class="description">Generate your custom QR codes with ease. Just enter the text and click "Generate QR".</p>
+            <div class="input-group">
+                <input type="text" id="text" placeholder="Enter Text..." class="input-box">
+                <button class="generate-btn" onclick="generateQR()">Generate QR</button>
+            </div>
+            <div id="qr-image">
+                <span class="error"></span>
+                <img src="" id="img" class="qr-img" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
