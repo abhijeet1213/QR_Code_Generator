@@ -12,7 +12,7 @@ Users can input text, and the application generates a custom QR code that can be
 
 # Demo
 
-You can view the live demo of this project here: 
+You can view the live demo of this project here: https://abhijeet1213.github.io/QR_Code_Generator/
 
 # Technologies Used
 
